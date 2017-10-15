@@ -1,2 +1,2 @@
 # DesertDigital.github.io
-Personal Website
+PersonalWebsite
