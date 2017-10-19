@@ -1,0 +1,12 @@
+<html>
+<body>
+<p>#This is an example of how to use a makefile</p>
+<p>#Rename the files to the files in your directory</p>
+<p>#Note Main.cpp is the class with the main method</p>
+<p>#Also Note Hash.cpp contains a class with a header file</p>
+<p> Name the makefile "Makefile" and use the command "make" to execute the makefile </p>
+
+
+<p>#This target will compile all the files<br />output: Main.o Hash.o<br />&nbsp;&nbsp; &nbsp;g++ Main.o Hash.o -o output<br /><br />Main.o: Main.cpp<br />&nbsp;&nbsp; &nbsp;g++ -c Main.cpp #creates Main.o file without creating executable <br /><br />Hash.o: Hash.cpp Hash.h<br />&nbsp;&nbsp; &nbsp;g++ -c Hash.cpp #creates Hash.o file without creating executable<br /><br />#Clears all object and output files<br />clean:<br />&nbsp;&nbsp; &nbsp;rm *.o output</p>
+</body>
+</html>
